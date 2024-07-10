@@ -1,0 +1,214 @@
+
+/* ------------------Main Header ------------------*/
+header img{
+
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+header nav{
+
+    margin-top: 1%;
+    height: 40px;
+    padding-right: 35px;
+}
+
+header nav ul{
+
+    list-style:none ;
+    text-align: center;
+    margin: 0px auto; 
+
+}
+
+header nav ul li{
+
+    display: inline;
+    font-size: 20px;
+}
+
+header nav a{
+
+    background-color: #a2cffe;
+    padding: 10px 40px;
+    height: 20px;
+    display: inline-block;
+
+}
+
+header nav a:link, header nav a:visited{
+
+    background-color: rgba(12, 127, 180, 0.877);
+    
+}
+
+header nav a:hover, header nav a:active{
+
+    background-color: #a2cffe;
+
+}
+
+body{
+
+    
+   background-image: url('Body\ JPG.jpg');
+    color: midnightblue;
+    font-size: 90%;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    width: 70%;
+    /* text-align: left; */
+    /* clear: both; */
+
+}
+
+body video{
+
+background-size: cover;
+width: 100%;
+height: 100%;
+
+}
+
+a{
+
+    text-decoration:none ;
+
+}
+
+a:link{
+
+    color: #a2cffe;
+    background-color: white;
+    
+}
+
+a:visited{
+
+    color: midnightblue;
+    background-color: white;
+    
+}
+
+a:hover{
+
+    color: blue;
+    
+}
+
+a:active{
+
+    color: black;
+    
+}
+
+
+
+/* ------------------Main Content ------------------*/
+
+
+
+.MainContent{
+
+    width: 70%;
+    float: left;
+
+}
+
+
+
+/* ------------------All Content ------------------*/
+
+
+
+.AllContent{
+
+    background-color: #a2cffe;
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 10px;
+
+}
+
+.AllContent p{
+
+    color: black;
+
+}
+
+.AllContent iframe{
+
+    border-radius: 10px;
+
+}
+
+.AllContent img{
+
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.AllContent audio{
+
+    width: 50%;
+    margin: 0 25px;
+
+}
+
+.AllContent video{
+
+    width: 70%;
+    margin: 0 25px;
+    border-radius: 10px;
+}
+
+
+
+/* ------------------Main Aside ------------------*/
+
+
+
+.MainAside{
+
+    width: 24%;
+    margin: 2% 0 0 2%;
+    padding: 2%;   
+    float: left;
+    background-color: rgba(12, 127, 180, 0.877);
+    border-radius: 10px;
+
+}
+
+.MainAside p{
+
+    color: black;
+
+}
+ 
+
+
+/* ------------------Main Footer ------------------*/
+
+
+
+.MainFooter{
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(12, 127, 180, 0.877);
+    float: left;
+    
+}
+
+.MainFooter p{
+
+    text-align: center;
+    color: midnightblue;
+    font-size: x-large;  
+}

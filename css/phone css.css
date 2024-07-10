@@ -1,0 +1,71 @@
+/* ---------------------------------------------------Css Phone----------------------------------------------------*/
+
+@media screen and (max-width: 872px) {
+    
+/* ------------------Main Header ------------------*/
+
+
+
+body{
+
+    width: 90%;
+    font-size: 95%;
+}
+
+header nav{
+
+    height: 166px;
+        
+}
+    
+header nav ul{
+      
+    padding: 0px;
+    
+    
+}
+    
+header nav ul li{
+    
+        
+    width: 100%;
+        
+}
+ 
+header nav a{
+        
+    display: block;
+          
+}
+    
+header nav a:link, header nav a:visited{
+          
+    height: 21.5px;
+               
+}
+
+
+
+/* ------------------Main Content ------------------*/
+
+
+
+.MainContent{
+
+    width: 100%;
+        
+}
+
+
+
+/* ------------------Main Aside ------------------*/
+
+
+
+.MainAside{
+
+    font-size: 65%;
+
+}
+
+}
